@@ -45,3 +45,37 @@ a {
 a:hover {
     color: #458775;
 }
+
+.project-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    transition: all ease-in-out 1s;
+}
+
+#project-left {
+    background-color: #FF6B6B;
+    left: -200px
+}
+
+#project-right {
+    align-self: end;
+    left: 200px;
+    background-color: #5AAA95;
+}
+
+
+
+
+
