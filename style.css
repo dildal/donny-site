@@ -1,7 +1,7 @@
 body {
     background-color: #F9EAE1;
     color: #2E3038;
-    font-family: helvetica;
+    font-family: 'Hind Siliguri', helvetica, sans-serif;
 }
 
 header {
@@ -23,11 +23,25 @@ header h3 {
      margin: 0px;
 }
 
-#smiley {
-    transition: all 500ms;
+.smiley-rotate {
+    transform: rotate(90deg) scale(1.3) translateY(-6px) translateX(1px);
 }
 
-.smiley-rotate {
-    transform: rotate(90deg) scale(1.3) translateY(-4px);
+span#smiley {
+    transition: all 500ms;
     display: inline-block;
+}
+
+.bio {
+    width: 66%;
+    margin: 0 auto;
+}
+
+a {
+    color: #5AAA95;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #458775;
 }
