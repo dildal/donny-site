@@ -2,6 +2,10 @@ body {
     background-color: #F9EAE1;
     color: #2E3038;
     font-family: 'Hind Siliguri', helvetica, sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 header {
@@ -48,7 +52,7 @@ a:hover {
 
 .project-wrapper {
     width: 60%;
-    margin: 0 auto;
+    margin: 10px auto;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -76,6 +80,20 @@ a:hover {
 }
 
 
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #2E3038;
+}
 
+.footer-wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+.footer-icon {
+    font-size: 25px;
+    margin-right: 5px;
+}
 
 
